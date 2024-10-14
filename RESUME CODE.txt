@@ -1,0 +1,111 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Choudhury Abhisek Panda} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+91 9437181603 \\ Odisha, India} 
+\address{\href{mailto:choudhurypanda555@gmail.com}{choudhurypanda555@gmail.com} 
+\\ \href{https://github.com/Choudhury555}{Github} 
+\\ \href{https://www.linkedin.com/in/choudhurydev/}{Linkedin} 
+\\ \href{https://choudhury555.github.io/Portfolio/}{Portfolio}}  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{OBJECTIVE}
+
+{Results-driven Software Developer with 2.4 years of experience in
+creating effective software solutions. Skilled in translating complex
+requirements into practical applications and adapting to new
+technologies.}
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Bachelor of Technology in Computer
+Science}, GIET University, Gunupur, CGPA: 9.21 \hfill {2018 - 2022}
+
+{\bf 12th Science}, Shakti Junior College, Percentage: 80\% \hfill {2015 - 2017}
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages and others & Javascript, C++, Java, Html, Css, Scss, Data Structures
+\\
+Libraries and Frameworks  & React.js, Node.js, Express.js, Redux/Redux toolkit\\
+Databases & Sql, Oracle/PostgreSql, MongoDb\\
+Software Tools & Docker, Git, Jira, Postman\\
+\end{tabular}\\
+\end{rSection}
+
+\begin{rSection}{EXPERIENCE}
+
+\textbf{ASSOCIATE PRODUCT DEVELOPER} \hfill June 2022 - Present\\
+EdgeVerve System Limited \hfill \textit{Bangalore, India}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Experienced in \textbf{JavaScript, React.js, Redux, React Hooks, Node.js, Express.js, MongoDB, C++, Object-oriented
+programming, Exception Handling, REST APIs}, Postman, Oracle/Postgres, \textbf{GitLab/GitHub}, CI/CD.
+     \item Developed frontend features for '\textbf{Deal Creation}' and
+'\textbf{Schedule Balance}' using \textbf{React.js}. Built the backend with
+C++ and Node.js, and integrated Oracle and PostgreSQL
+databases.
+    \item Revamped five key frontend menus and added a search
+feature, resulting in an 85\% improvement in loading
+speed and smoother user engagement. \textbf{Enhanced
+application performance by 80\% through optimization.} 
+    \item Debugged and resolved over \textbf{80 product bugs} while managing code reconciliation for three releases, \textbf{reducing compatibility issues by 95\%} and contributing to enhancements in Finacle Loans versions 11.13, 11.15, and 11.18.
+ \end{itemize}
+ 
+\textbf{SOFTWARE ENGINEER INTERN (MERN
+STACK DEVELOPER)} \hfill Feb 2022 - June 2022\\
+Persistent Systems \hfill \textit{Pune, India}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item As a Full Stack Developer specializing in the \textbf{MERN stack}, gained extensive experience with React.js, Redux, React
+Hooks, JavaScript, Node.js, Express.js, SQL/Oracle, and
+RESTful APIs, with a focus on frontend performance
+optimization.
+     \item Implemented \textbf{login functionality in React.js} for a hospital
+management system, improving user authentication and
+access control.
+    \item Received recognition for ranking in the \textbf{top 1\%} during the internship program. 
+ \end{itemize}
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+\vspace{-1.25em}
+\item \textbf{JOB Portal} {Architected a comprehensive job portal using the \textbf{MERN stack}, featuring \textbf{advanced search and filtering, secure user authentication}, and efficient job and application management. Optimized performance and scalability to ensure a smooth user experience across all devices. \href{/}{(Try it here)}}
+\item \textbf{E-commerce website} {Engineered a responsive e-commerce website using \textbf{React.js} and \textbf{Next.js}, incorporating backend APIs with \textbf{Node.js} and \textbf{Express.js}, utilizing \textbf{MongoDB} as the database. Integrated \textbf{Stripe payment} and optimized performance, scalability, and load times to enhance user experience across devices.\href{https://main--beamish-belekoy-207ca7.netlify.app/}{(Try it here)}}
+
+\end{rSection} 
+
+
+
+
+
+\end{document}
